@@ -1,12 +1,15 @@
 import React from 'react'
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
-const headerSocials = () => {
+
+const HeaderSocials = () => {
   return (
     <div className='header__socials'>
-        <a href='https://www.linkedin.com/in/abi-jacob/' target='_blank'></a>
-        <a href='https://github.com/abijacob' target='_blank'></a>
+        <a href='https://www.linkedin.com/in/abi-jacob/' target='_blank'><FaLinkedin /></a>
+        <a href='https://github.com/abijacob' target='_blank'><FaGithub/></a>
     </div>
   )
 }
 
-export default headerSocials
+export default HeaderSocials
